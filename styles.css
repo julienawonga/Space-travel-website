@@ -33,7 +33,7 @@ body{
     width: 24px;
     margin-top: 24px;
     margin-right: 20px;
-    z-index: 1;
+    z-index: 9;
 }
 
 .navbar{
@@ -65,4 +65,26 @@ body{
     color: #fff;
     backdrop-filter: blur(30px);
     right: 0px;
+    z-index: 1;
+}
+/* */
+main{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    z-index: 0.1;
+}
+
+/* */
+section div{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #fff;
+    margin-top: 300px;
+    margin-left: 30px;
 }
