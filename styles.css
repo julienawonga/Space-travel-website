@@ -1,0 +1,68 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-image: url("./assets/home/background-home-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+   padding-left: 24px;
+}
+
+.logo{
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-top: 24px;
+}
+
+.sidnav{
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu{
+    height: 24px;
+    width: 24px;
+    margin-top: 24px;
+    margin-right: 20px;
+    z-index: 1;
+}
+
+.navbar{
+    position: fixed;
+    width: 254px;
+    height: 100vh;
+    color: #fff;
+    background-color: brown;
+    right: -255px;
+    transition: right 0.5s ease-in-out;
+}
+
+.navbar ul{
+    list-style: none;
+    padding-top: 100px;
+    padding-left: 25px;
+}
+
+.navbar ul li{
+    text-transform: uppercase;
+    font-size: 17px;
+    padding: 10px;
+}
+
+.navbar.active{
+    position: fixed;
+    width: 254px;
+    height: 100vh;
+    color: #fff;
+    background-color: brown;
+    right: 0px;
+}
