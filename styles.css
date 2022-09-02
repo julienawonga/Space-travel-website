@@ -41,7 +41,7 @@ body{
     width: 254px;
     height: 100vh;
     color: #fff;
-    background-color: brown;
+    backdrop-filter: blur(30px);
     right: -255px;
     transition: right 0.5s ease-in-out;
 }
@@ -63,6 +63,6 @@ body{
     width: 254px;
     height: 100vh;
     color: #fff;
-    background-color: brown;
+    backdrop-filter: blur(30px);
     right: 0px;
 }
