@@ -50,12 +50,14 @@ body{
     list-style: none;
     padding-top: 100px;
     padding-left: 25px;
+    backdrop-filter: blur(30px);
 }
 
 .navbar ul li{
     text-transform: uppercase;
     font-size: 17px;
     padding: 10px;
+    backdrop-filter: blur(30px);
 }
 
 .navbar.active{

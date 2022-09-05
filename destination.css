@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+*, ::after, ::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-image: url("./assets/destination/background-destination-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Bellefair', serif;
+}
+a{
+    text-decoration: none;
+}
+.header{
+   padding-left: 24px;
+}
+
+.logo{
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-top: 24px;
+}
+
+.sidnav{
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu{
+    height: 24px;
+    width: 24px;
+    margin-top: 24px;
+    margin-right: 20px;
+    z-index: 9;
+}
+
+.navbar{
+    position: fixed;
+    width: 254px;
+    height: 100vh;
+    color: #fff;
+    backdrop-filter: blur(30px);
+    right: -255px;
+    transition: right 0.5s ease-in-out;
+}
+
+.navbar ul{
+    list-style: none;
+    padding-top: 100px;
+    padding-left: 25px;
+    backdrop-filter: blur(30px);
+}
+
+.navbar ul li{
+    text-transform: uppercase;
+    font-size: 17px;
+    padding: 10px;
+    backdrop-filter: blur(30px);
+}
+
+.navbar.active{
+    position: fixed;
+    width: 254px;
+    height: 100vh;
+    color: #fff;
+    backdrop-filter: blur(30px);
+    right: 0px;
+    z-index: 1;
+}
+/* */
+main{
+    position: absolute;
+    top: 10%;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+}
+
+.title{
+    font-size: 25px;
+}
+
+.destination-image{
+    width: 170px;
+    height: 170px;
+    margin: 30px 0px;
+}
+
+.section-destinations-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.destination-item{
+    margin-left: 15px;
+    padding-bottom: 8px;
+    color: #fff;
+}
+
+
+.destination-item.active{
+    border-bottom: 5px solid #fff;
+}
+
+
+.destination-title{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.destination-description{
+    font-size: 18px;
+    padding: 20px;
+    line-height: 30px;
+}
+
+.section-distance{
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.section-distance > h1{
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.section-distance > h2{
+    font-size: 1em;
+    font-weight: 100;
+}
+.section-distance > p{
+    padding-top: 8px;
+   margin-bottom: 25px;
+    font-size: 2em;
+}
