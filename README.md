@@ -1,3 +1,5 @@
 # Space-travel-website
 ## Build a space website with html css and js
-### Make it responsive
+## How to run 
+Script `git clone https://github.com/julienawon/Space-travel-website.git`
+### Open `index.html`
