@@ -7,4 +7,6 @@ Script
 ```sh
 $ git clone https://github.com/julienawon/Space-travel-website.git
 ```
-  Open `index.html`
+Open `index.html`
+# License
+Free ! Pls give a star !
