@@ -9,4 +9,4 @@ $ git clone https://github.com/julienawon/Space-travel-website.git
 ```
 Open `index.html`
 # License
-Free ! Pls give a star !
+Free ! Pleas give a star !
