@@ -1,4 +1,4 @@
-# Space travel-website
+# Space travel website
 # Description
 This Repo Project is a part of challenge from Frontend Mentor,
 The goal is to build a space travel website based on a design
